@@ -4,7 +4,7 @@
     Nice to see you again!
   - else
     <center> Please connect a service
-- if session[:access_token]
+- if session[:access_token] 
   %p
     Your access token is
     %input{:type => :text, :value => session[:access_token], :readonly => :readonly}
