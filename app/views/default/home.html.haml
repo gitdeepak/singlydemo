@@ -14,7 +14,7 @@
     Your news_feed looks like
     %a(href="https://api.singly.com/types/news_feed?limit=2&access_token=#{session[:access_token]}") See your Feed
 %ul
-  - %w[facebook twitter].each do |service|
+  - %w[facebook twitter google github].each do |service|
     %li
       <center>
       = service.capitalize
